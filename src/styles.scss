@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  min-height: 100%;
+  position: relative;
+  body {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background: linear-gradient(
+      80deg,
+      rgba(85, 7, 115, 1) 0%,
+      rgba(182, 38, 198, 1) 35%,
+      rgba(223, 207, 221, 1) 100%
+    );
+    .logo {
+      width: 20%;
+      height: auto;
+    }
+  }
 }

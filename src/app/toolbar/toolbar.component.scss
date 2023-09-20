@@ -1,3 +1,16 @@
-h1 {
-  background-color: black;
+ul {
+  font-size: 1.5rem;
+  border-style: solid;
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  border-color: rgb(102, 21, 139);
+  position: fixed;
+}
+
+li:hover {
+  background: magenta;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
 }

@@ -14,6 +14,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     FooterComponent,
     SidebarComponent,
     PageWrapperComponent,
+    ToolbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
